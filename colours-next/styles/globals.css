@@ -1,9 +1,14 @@
 html,
-body {
+body, #__next, .colour-page {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: block;
 }
 
 a {
@@ -13,4 +18,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.colour-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
